@@ -1,0 +1,16 @@
+<div class="categories-product">
+	<div class="categories">
+		<ul class="list-group categories-title"><p>Категории товаров:</p>
+			<li class="list-group-item active"><a href="#">Санки и ледянки</a></li>
+			<li class="list-group-item"><a href="#">Лыжи и коньки</li>
+			<li class="list-group-item"><a href="#">Снежколепы</li>
+			<li class="list-group-item"><a href="#">Велобеги / Беговелы</a></li>
+			<li class="list-group-item"><a href="#">Велосипеды</a></li>
+			<li class="list-group-item"><a href="#">Самокаты</a></li>
+			<li class="list-group-item"><a href="#">Скейты и пенниборды</a></li>
+			<li class="list-group-item"><a href="#">Электротранспорт</a></li>
+			<li class="list-group-item"><a href="#">Ролики</a></li>
+			<li class="list-group-item"><a href="#">Все для безопасности</a></li>
+		</ul>
+	</div>
+</div>

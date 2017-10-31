@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/jquery-ui.min.css">
+	<title>Template</title>
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<main>
+	<header>
+		<div class="header-navbar">
+			<nav class="navbar navbar-default navbar-fixed-top">
+				<div class="container">
+					<!-- Brand and toggle get grouped for better mobile display -->
+				    <div class="navbar-header">
+				      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				      </button>
+				      <a class="navbar-brand" href="#">Brand</a>
+				    </div>
+				    <!-- Collect the nav links, forms, and other content for toggling -->
+				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				      <ul class="nav navbar-nav">
+				        <li class="active"><a href="#">Главная<span class="sr-only">(current)</span></a></li>
+				        <li><a href="#">Оплата и доставка</a></li>
+				        <li><a href="#">Контакты</a></li>
+				        <li class="dropdown">
+				          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Каталог товаров <span class="caret"></span></a>
+				          <ul class="dropdown-menu">
+				            <li><a href="#">Action</a></li>
+				            <li><a href="#">Another action</a></li>
+				            <li><a href="#">Something else here</a></li>
+				            <li role="separator" class="divider"></li>
+				            <li><a href="#">Separated link</a></li>
+				            <li role="separator" class="divider"></li>
+				            <li><a href="#">One more separated link</a></li>
+				          </ul>
+				        </li>
+				      </ul>
+				      <form class="navbar-form navbar-left">
+				        <div class="form-group">
+				          <input type="text" class="form-control" placeholder="Search">
+				        </div>
+				        <button type="submit" class="btn btn-default">Поиск</button>
+				      </form>
+				      <ul class="nav navbar-nav navbar-right">
+				        <li>
+			        		<button type="button" class="btn navbar-btn btn-default cart">
+							  <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+							  <a href="#">Корзина <span class="badge">2</span></a>
+							</button>
+				        </li>
+						<li>
+							<button type="button" class="btn navbar-btn btn-default" data-toggle="modal" data-target="#login_account">
+								<a href="#">Войти в личный кабинет</a>
+							</button>
+						</li>
+				      </ul>
+						<ul class="nav navbar-nav navbar-contact-info navbar-center">
+							<li><a href="#">(050) 912 70 78</a></li>
+							<li><a href="#">График работы: пн.-сб. 9:00 - 18:00</a></li>
+							<li>
+								<ul class="social-img nav navbar-nav">
+									<li><a href="#">Мы в соцсетях</a></li>
+									<li><a href="#"><img src="img/icon_Facebook.png" alt=""></a></li>
+									<li><a href="#"><img src="img/icon_Google.png" alt=""></a></li>
+									<li><a href="#"><img src="img/icon_Intsagram.png" alt=""></a></li>
+									<li><a href="#"><img src="img/icon_Skype.png" alt=""></a></li>
+									<li><a href="#"><img src="img/icon_Twitter.png" alt=""></a></li>
+									<li><a href="#"><img src="img/icon_YouTube.png" alt=""></a></li>
+								</ul>
+							</li>
+							<li><a href="#">Блог</a></li>
+							<li><a href="#">Регистрация</a></li>
+						</ul>
+				    </div><!-- /.navbar-collapse -->
+				</div><!-- /.container-->
+			</nav>	
+		</div>
+		
+		<div class="modal fade" id="login_account" tabindex="-1" role="dialog">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title">Вход в личный кабинет</h4>
+		      </div>
+		      <div class="modal-body">
+		        
+				<form>
+				  <div class="form-group">
+				    <label for="exampleInputEmail1">Адрес электронной почты</label>
+				    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+				  </div>
+				  <div class="form-group">
+				    <label for="exampleInputPassword1">Пароль</label>
+				    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+				  </div>
+				  <p class="help-block"><a href="#">Напомнить пароль</a></p>
+				  <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> Запомнить меня
+				    </label>
+				  </div>
+				</form>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+		        <button type="button" class="btn btn-primary">Войти</button>
+		      </div>
+		    </div><!-- /.modal-content -->
+		  </div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+
+	</header>
+
+	<div class="content-block">
+		<div class="container">
+			<div class="categories-product">
+				<div class="categories">
+					<ul class="list-group categories-title"><p>Категории товаров:</p>
+						<li class="list-group-item active"><a href="#">Санки и ледянки</a></li>
+						<li class="list-group-item"><a href="#">Лыжи и коньки</li>
+						<li class="list-group-item"><a href="#">Снежколепы</li>
+						<li class="list-group-item"><a href="#">Велобеги / Беговелы</a></li>
+						<li class="list-group-item"><a href="#">Велосипеды</a></li>
+						<li class="list-group-item"><a href="#">Самокаты</a></li>
+						<li class="list-group-item"><a href="#">Скейты и пенниборды</a></li>
+						<li class="list-group-item"><a href="#">Электротранспорт</a></li>
+						<li class="list-group-item"><a href="#">Ролики</a></li>
+						<li class="list-group-item"><a href="#">Все для безопасности</a></li>
+					</ul>
+				</div>
+			</div>
+			
+
+			<div class="product-group-full">
+				<div class="row">
+					<div class="col-md-3 col-sm-6">
+						<div class="tumbnail product-group-list">
+							<img src="img/product-list-img1.jpg" alt="Зимний активный отдых">
+							<div class="caption">
+								<ul><h4>Зимний активный отдых</h4>
+									<li><a href="#">Санки</a><span class="glyphicon glyphicon-menu-right"></span></li>
+									<li><a href="#">Ледянки</a><span class="glyphicon glyphicon-menu-right"></span></li>
+									<li><a href="#">Снегокаты</a><span class="glyphicon glyphicon-menu-right"></span></li>
+									<li><a href="#">Круги</a><span class="glyphicon glyphicon-menu-right"></span></li>
+									<li><a href="#">Доски</a><span class="glyphicon glyphicon-menu-right"></span></li>
+									<li><a href="#">Снежколепы</a><span class="glyphicon glyphicon-menu-right"></span></li>
+									<li><a href="#">Лыжи</a><span class="glyphicon glyphicon-menu-right"></span></li>
+									<li><a href="#">Коньки</a><span class="glyphicon glyphicon-menu-right"></span></li>
+									<li><a href="#">Аксессуары</a><span class="glyphicon glyphicon-menu-right"></span></li>
+									<li><a href="#">Весь зимний ассортимент</a><span class="glyphicon glyphicon-arrow-right"></span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="tumbnail product-group-list">
+							<img src="img/product-list-img2.jpg" alt="Велосипеды">
+							<div class="caption">
+								<ul><h4>Велосипеды</h4>
+									<li><a href="#">Двухколесные</a><span class="glyphicon glyphicon-menu-right"></span></li>
+									<li><a href="#">Трехколесные</a><span class="glyphicon glyphicon-menu-right"></span></li>
+									<li><a href="#">Четырехколесные</a><span class="glyphicon glyphicon-menu-right"></span></li>
+									<li><a href="#">Беговелы</a><span class="glyphicon glyphicon-menu-right"></span></li>
+									<li><a href="#">Аксессуары</a><span class="glyphicon glyphicon-menu-right"></span></li>
+									<li><a href="#">Весь ассортимент велосипедов</a><span class="glyphicon glyphicon-arrow-right"></span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="tumbnail product-group-list">
+							<img src="img/product-list-img3.jpg" alt="Скейты">
+							<div class="caption">
+								<ul><h4>Скейты</h4>
+									<li><a href="#"><a href="#">Скейты</a><span class="glyphicon glyphicon-menu-right"></li>
+									<li><a href="#">Пенниборды</a><span class="glyphicon glyphicon-menu-right"></li>
+									<li><a href="#">Аксессуары</a><span class="glyphicon glyphicon-menu-right"></li>
+									<li><a href="#">Весь ассортимент скейтов</a><span class="glyphicon glyphicon-arrow-right"></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="tumbnail product-group-list">
+							<img src="img/product-list-img4.jpg" alt="Самокаты">
+							<div class="caption">
+								<ul><h4>Самокаты</h4>
+									<li><a href="#">Двухколесные</a><span class="glyphicon glyphicon-menu-right"></li>
+									<li><a href="#">Трехколесные</a><span class="glyphicon glyphicon-menu-right"></li>
+									<li><a href="#">Аксессуары</a><span class="glyphicon glyphicon-menu-right"></li>
+									<li><a href="#">Весь ассортимент самокатов</a><span class="glyphicon glyphicon-arrow-right"></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="tumbnail product-group-list">
+							<img src="img/product-list-img5.jpg" alt="Электротранспорт">
+							<div class="caption">
+								<ul><h4>Электротранспорт</h4>
+									<li><a href="#">Гироборды</a><span class="glyphicon glyphicon-menu-right"></li>
+									<li><a href="#">Моноколеса</a><span class="glyphicon glyphicon-menu-right"></li>
+									<li><a href="#">Гироскутеры</a><span class="glyphicon glyphicon-menu-right"></li>
+									<li><a href="#">Моноскейты</a><span class="glyphicon glyphicon-menu-right"></li>
+									<li><a href="#">Электроскейты</a><span class="glyphicon glyphicon-menu-right"></li>
+									<li><a href="#">Аксессуары</a><span class="glyphicon glyphicon-menu-right"></li>
+									<li><a href="#">Весь ассортимент электротранспорта</a><span class="glyphicon glyphicon-arrow-right"></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="tumbnail product-group-list">
+							<img src="img/product-list-img6.jpg" alt="Ролики">
+							<div class="caption">
+								<ul><h4>Ролики</h4>
+									<li><a href="#">Для мальчиков</a><span class="glyphicon glyphicon-menu-right"></li>
+									<li><a href="#">Для девочек</a><span class="glyphicon glyphicon-menu-right"></li>
+									<li><a href="#">Аксессуары</a><span class="glyphicon glyphicon-menu-right"></li>
+									<li><a href="#">Весь ассортимент роликов</a><span class="glyphicon glyphicon-arrow-right"></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="product-group-brands">
+				<h3>Бренды</h3>
+				<div class="row">
+  					<div class=" col-xs-4 col-md-2">
+  						<a href="#"><img src="img/adber.png" alt=""></a>
+  					</div>
+  					<div class=" col-xs-4 col-md-2">
+  						<a href="#"><img src="img/milly_mally.png" alt=""></a>
+  					</div>
+  					<div class=" col-xs-4 col-md-2">
+  						<a href="#"><img src="img/puky.jpg" alt=""></a>
+  					</div>
+  					<div class=" col-xs-4 col-md-2">
+  						<a href="#"><img src="img/adber.png" alt=""></a>
+  					</div>
+  					<div class=" col-xs-4 col-md-2">
+  						<a href="#"><img src="img/adber.png" alt=""></a>
+  					</div>
+  					<div class=" col-xs-4 col-md-2">
+  						<a href="#"><img src="img/adber.png" alt=""></a>
+  					</div>
+  				</div>
+			</div>
+		</div>
+			
+	</div>
+	
+	
+</main>
+
+
+<footer>
+	<div class="container">
+		<div class="footer-navbar">
+			<span>2017 All rights reserved</span>
+			<ul>
+				<li><a href="#">О нас</a></li>
+				<li><a href="#">Оплата и доставка</a></li>
+				<li><a href="#">Возврат товара</a></li>
+				<li><a href="#">Обратная связь</a></li>
+				<li>
+					<ul class="social-img">
+						<li><a href="#">Мы в соцсетях</a></li>
+						<li><a href="#"><img src="img/icon_Facebook.png" alt=""></a></li>
+						<li><a href="#"><img src="img/icon_Google.png" alt=""></a></li>
+						<li><a href="#"><img src="img/icon_Intsagram.png" alt=""></a></li>
+						<li><a href="#"><img src="img/icon_Skype.png" alt=""></a></li>
+						<li><a href="#"><img src="img/icon_Twitter.png" alt=""></a></li>
+						<li><a href="#"><img src="img/icon_YouTube.png" alt=""></a></li>
+					</ul>
+				</li>
+				<li> Подпишитесь на рассылку и получайте новости об акциях и спецю предложениях:		
+					<form class="form-inline form-for-dispatch">
+						<div class="form-group">
+						    <label for="exampleInputName2">Имя</label>
+						    <input type="text" class="form-control" id="exampleInputName2" placeholder="Введите ваше имя">
+						</div>
+					  	<div class="form-group">
+					    	<label for="exampleInputEmail2">Email</label>
+					    	<input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+					  	</div>
+					  	<button type="submit" class="btn btn-default">Подписаться</button>
+					</form>
+				</li>
+			</ul>
+
+		</div>
+	</div>
+</footer>
+
+
+
+
+
+ <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+ <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>	
+	<script src="js/jquery-ui.min.js"></script>
+    <script src="js/init.js"></script>
+
+</body>
+</html>
